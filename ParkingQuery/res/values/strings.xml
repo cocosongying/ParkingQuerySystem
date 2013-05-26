@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ParkingQuery</string>
+    <string name="app_title">易查停车位</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="welcome">Welcome</string>
+    <string name="background">Background</string>
+    <string name="parking_simple_model">精简模式</string>
+    <string name="parking_map_model">地图模式</string>
+    <string name="parking_help">帮助</string>
+    <string name="parking_about">关于</string>
+    <string name="parking_exit">退出</string>
+    <string name="parking_simple_query">查询</string>
+    <string name="parking_simple_hint">请输入停车场名称</string>
+    <string name="parking_simple_result">等待查询结果...</string>
+    <string name="refresh">刷新</string>
+    <string name="title">title</string>
+
+</resources>

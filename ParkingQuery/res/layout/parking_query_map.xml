@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.google.android.maps.MapView
+        android:id="@+id/Map_View"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:apiKey="08j_rPBbzpsqelFEv5pEQAatjqZsPz8I7jLvWwA" />
+
+    <Button
+        android:id="@+id/refresh"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/img_btn_refresh"
+        android:text="@string/refresh" />
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cocosongying.android.parkingquery"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_parking"
+        android:label="@string/app_title"
+        android:theme="@style/AppTheme" >
+        <uses-library
+            android:name="com.google.android.maps"
+            android:required="true" />
+
+        <activity
+            android:name="com.cocosongying.android.parkingquery.Welcome"
+            android:label="@string/app_title" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cocosongying.android.parkingquery.ParkingQueryActivity" >
+        </activity>
+        <activity android:name="com.cocosongying.android.parkingquery.SimpleModel" >
+        </activity>
+        <activity android:name="com.cocosongying.android.parkingquery.MapModel" >
+        </activity>
+        <activity android:name="com.cocosongying.android.parkingquery.Help" >
+        </activity>
+        <activity android:name="com.cocosongying.android.parkingquery.About" >
+        </activity>
+    </application>
+
+</manifest>
